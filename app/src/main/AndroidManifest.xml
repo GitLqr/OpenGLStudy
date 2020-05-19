@@ -34,6 +34,48 @@
             </intent-filter>-->
         </activity>
         <activity android:name=".camera.GLSurfaceViewCameraActivity">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name="com.kevin.opengles.chapter1.FirstOpenGLProjectActivity">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name="com.kevin.opengles.chapter2.AirHockeyActivity">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name="com.kevin.opengles.chapter3.AirHockeyActivity">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name="com.kevin.opengles.chapter4.AirHockeyActivity">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name="com.kevin.opengles.chapter5.AirHockeyActivity">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name="com.kevin.opengles.chapter6.AirHockeyActivity">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name="com.kevin.opengles.chapter7.AirHockeyActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

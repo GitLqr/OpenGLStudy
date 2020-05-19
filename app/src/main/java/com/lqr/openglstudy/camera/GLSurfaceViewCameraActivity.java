@@ -4,6 +4,7 @@ import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
 import android.graphics.SurfaceTexture;
 import android.hardware.Camera;
+import android.media.ThumbnailUtils;
 import android.opengl.GLES11;
 import android.opengl.GLES11Ext;
 import android.opengl.GLES20;
