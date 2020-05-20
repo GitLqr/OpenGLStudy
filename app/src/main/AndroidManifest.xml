@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lqr.openglstudy">
 
-    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -15,67 +15,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <!--<intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
-        </activity>
-        <activity android:name=".es20.GLSurfaceViewActivity">
-            <!--<intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
-        </activity>
-        <activity android:name=".camera.TextureViewCameraActivity">
-            <!--<intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
-        </activity>
-        <activity android:name=".camera.GLSurfaceViewCameraActivity">
-            <!--<intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
-        </activity>
-        <activity android:name="com.kevin.opengles.chapter1.FirstOpenGLProjectActivity">
-            <!--<intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
-        </activity>
-        <activity android:name="com.kevin.opengles.chapter2.AirHockeyActivity">
-            <!--<intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
-        </activity>
-        <activity android:name="com.kevin.opengles.chapter3.AirHockeyActivity">
-            <!--<intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
-        </activity>
-        <activity android:name="com.kevin.opengles.chapter4.AirHockeyActivity">
-            <!--<intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
-        </activity>
-        <activity android:name="com.kevin.opengles.chapter5.AirHockeyActivity">
-            <!--<intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
-        </activity>
-        <activity android:name="com.kevin.opengles.chapter6.AirHockeyActivity">
-            <!--<intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
-        </activity>
-        <activity android:name="com.kevin.opengles.chapter7.AirHockeyActivity">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".es20.GLSurfaceViewActivity"></activity>
+        <activity android:name=".camera.TextureViewCameraActivity"></activity>
+        <activity android:name=".camera.GLSurfaceViewCameraActivity"></activity>
+        <activity android:name="com.kevin.opengles.chapter1.FirstOpenGLProjectActivity"></activity>
+        <activity android:name="com.kevin.opengles.chapter2.AirHockeyActivity"></activity>
+        <activity android:name="com.kevin.opengles.chapter3.AirHockeyActivity"></activity>
+        <activity android:name="com.kevin.opengles.chapter4.AirHockeyActivity"></activity>
+        <activity android:name="com.kevin.opengles.chapter5.AirHockeyActivity"></activity>
+        <activity android:name="com.kevin.opengles.chapter6.AirHockeyActivity"></activity>
+        <activity android:name="com.kevin.opengles.chapter7.AirHockeyActivity"></activity>
+        <activity android:name="com.lqr.scaletype.ScaleTypeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
